@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABC blog</title>
+	<style type="text/css">
+		body
+		{
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: left;
+			align-items: center;
+			min-height: 90vh;
+			font-family: sans-serif;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.container .box1
+{
+	position: relative;
+	width: 100px;
+	padding: 10px;
+	background: #fff;
+	background-image: url("https://www.blender.org/wp-content/uploads/2020/06/blender_beginner_tutorial_00-480x270.jpg?x34222");
+	background-size: 205px;
+	width: 100px;
+	height: 100px;
+	filter: brightness(.9);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: all;
+	text-align: center;
+	border-radius: 25px 25px;
+}
+.container .box2
+{
+	position: relative;
+	width: 100px;
+	padding: 10px;
+	background: #fff;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjdApBMVyg-dATyhfc8uDpTuZ6XEIkXc3lQg&usqp=CAU");
+	background-size: 145px;
+	width: 100px;
+	height: 100px;
+	filter: brightness(.9);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: all;
+	text-align: center;
+	border-radius: 25px 25px;
+}
+.container .box3
+{
+	position: relative;
+	width: 100px;
+	padding: 5px;
+	background: #fff;
+	background-image: url("https://i.pinimg.com/originals/bc/91/d9/bc91d91c8921aac8e5bcc99e2a907ec7.jpg");
+	background-size: 75px;
+	width: 100px;
+	height: 100px;
+	filter: brightness(.9);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: all;
+	text-align: center;
+	border-radius: 25px 25px;
+}
+.container .box4
+{
+	position: relative;
+	width: 100px;
+	padding: 10px;
+	background: #fff;
+	background-image: url("https://img.freepik.com/free-vector/file-searching-concept-illustration_23-2148281792.jpg?size=338&ext=jpg");
+	background-size: 135px;
+	width: 100px;
+	height: 100px;
+	filter: brightness(.9);
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: all;
+	text-align: center;
+	border-radius: 25px 25px;
+}
+a {
+  text-decoration: none;
+  
+  padding: 6px 12px;
+}
+
+.next {
+  background-color: #ffdb58;
+  color: white;
+}
+
+.round {
+  border-radius: 100%;
+}
+	</style>
+
+</head>
+<body>
+	<div>
+<h2>Blogs Special</h2>
+	</div>
+
+<body>
+<div class= "container">
+	<div class="box1">
+		<div class="content">
+			<h4 style="color: white;">Basics 101</h4>
+		</div>
+	</div>
+</div>
+<div class= "container">
+	<div class="box2">
+		<div class="content">
+			<h4 style="color: white;">Tech Tuesdays</h4>
+		</div>
+	</div>
+</div>
+<div class= "container">
+	<div class="box3">
+		<div class="content">
+			<h4 style="color: white;">Opening the Kimono</h4>
+		</div>
+	</div>
+</div>
+<div class= "container">
+	<div class="box4">
+		<div class="content">
+			<h4 style="color: white;">Ones to Watch</h4>
+		</div>
+	</div>
+</div>
+<div class="row">
+            <div class="col-12">
+              <div id="side2" class="jumbotron">
+                <h5>Designs by Nature.</h5>
+                <p class="lead mb-0 mb-lg-2">By Prerna</p>
+                <p id="views">12000 <i class="far fa-eye"></i></p>                
+              </div>             
+            </div>
+      </div>
+
+<!--Videos-->
+<h2 style="font-family: sans-serif;">Latest Videos</h2>
+<a href="#" class="next round">&#8250;</a>
+<div>
+<iframe width="420" height="215" src="https://www.youtube.com/embed/BmAmQct3BJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div style="float:right">
+	<h2 style="font-family: sans-serif;">More Videos</h2>
+	<a href="#" class="next round">&#8250;</a>
+	<div>
+		<iframe style="align-items: right" width="100" height="100" src="https://www.youtube.com/embed/BmAmQct3BJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div>
+		<iframe width="100" height="100" src="https://www.youtube.com/embed/BmAmQct3BJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+</body>
+</html>
